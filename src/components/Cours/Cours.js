@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
-import Type from "./Type";
 
 function Home() {
   return (
@@ -13,7 +12,7 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Bienvenue
+                Cours batard
               </h1>
 
               <h1 className="heading-name">
@@ -21,9 +20,6 @@ function Home() {
                 <strong className="main-name"> CYBERCHASE</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
-              </div>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>

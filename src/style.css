@@ -260,7 +260,7 @@ button:focus {
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 30px !important;
+  background-size: cover;
   padding-top: 30px !important;
 }
 
@@ -741,3 +741,34 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+/* --------- */
+/* Login */
+/* --------- */
+
+.loginForm{
+  height:80%;
+  background-color: red;
+}
+.login-section{
+  position: relative;
+  z-index: -1;
+  background-image: var(--image-gradient);
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
+}
+.loginBtn{
+  margin:auto;
+  color: #fff !important;
+  background-color: #623686 !important;
+  border-color: #623686 !important;
+}
+.loginBtn:hover{
+  cursor: pointer;
+  color: #fff !important;
+  background-color: #4f266f !important;
+  border-color: #623686 !important;
+}
+
